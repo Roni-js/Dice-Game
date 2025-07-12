@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 649px;
+  max-width: 522px;
+  height: 100%;
+  width: 100%;
+ padding: 0;
+}
+.score {
+  font-size: clamp(48px, 10vw, 100px);
+  margin-left: clamp(16px, 4vw, 20px);
+}
+
+.score-para {
+  font-size: clamp(16px, 2vw, 24px);
+  text-align: start;
+  margin-top: clamp(-25px , -3vw , -15px);
+  margin-left: clamp(-4px,-1.5vw, -10px);
+}
+
+.draw-options {
+  gap: 24px;
+  align-items: center;
+  justify-content: end;
+  display: flexbox;
+}
+
+.draw-para{
+    padding: 5px;
+    font-size: clamp(16px, 2.5vw, 24px);
+
+}
+.img-para{
+  padding: 0;
+  font-size: clamp(12px, 2vw, 24px);
+}
+.error-msg{
+    font-size: clamp(10px, 2vw, 26px);
+
+}
+
+.option {
+   height: clamp(40px, 6vw, 72px);
+width: clamp(40px, 6vw, 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: black;
+  background-color: white;
+  font-size: clamp(16px, 2.5vw, 24px);
+}
+
+.option:hover {
+  background-color: black;
+  color: white;
+}
+
+.game-result-sec{
+  margin: 48px auto;
+}
+
+.dicesec img {
+  width: clamp(150px,20vw,250px);
+  height: clamp(150px,20vw,250px);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+
+.dicesec img:hover {
+  transform: scale(1.1);
+}
+
+.rule-sec{
+  margin-top: 64px;
+}
+
+.rule-sec .col-12{
+  width: 794px;
+  height: 230px;
+  background-color: #FBF1F1;
+  margin-bottom: 30px;
+}
+
+.rule-sec .col-12 p{
+  font-size: clamp(12px, 2vw, 16px); 
+}
+
+
+
+
